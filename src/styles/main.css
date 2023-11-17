@@ -36,8 +36,8 @@
     justify-content: center;
 }
 .panel > .panel-row > .square{
-    height: 150px;
-    width: 150px;
+    height: 12vw;
+    width: 12vw;
     background-color: #94C11E;
     margin: 20px;
 }
@@ -46,4 +46,12 @@
     background-size: cover;
     
 }
-
+@media(max-width:500px){
+    .container > .menu{
+        font-size: 10px;
+    }
+    .panel > .panel-row > .square{
+        height: 20vw;
+        width: 20vw;
+    }
+}
