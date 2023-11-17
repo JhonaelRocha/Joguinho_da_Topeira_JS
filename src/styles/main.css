@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container > .menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 90px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom: 5px solid gold;
+}
+.container > .menu > .menu-lives{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container > .menu > .menu-time h2:nth-child(2),
+.container > .menu > .menu-score h2:nth-child(2){
+    margin-top: 1rem;
+}
+
+.panel{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel > .panel-row > .square{
+    height: 150px;
+    width: 150px;
+    background-color: #94C11E;
+    margin: 20px;
+}
+.panel > .panel-row > .enemy{
+    background-image: url(../images/com_topeira.png);
+    background-size: cover;
+    
+}
+
